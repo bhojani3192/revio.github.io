@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap');
+body{
+    font-family: 'Inter', sans-serif !important;   
+}
+a{
+    text-decoration: none!important;
+}
+input:focus{
+    outline: none;
+    box-shadow: none !important;
+}
+label::-moz-focus-outer{
+    border-color: #08867D;
+}
+.form-box{
+    border-radius: 10px;
+    width: 100% !important;
+    height: auto;
+    padding:20px 40px !important;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px #7a7a7a;
+}
+.form-box h2{
+    color: #08867D;
+    font-weight: bold;
+    font-size: 36px;
+}
+.form-box input{
+    margin-bottom: 20px !important;
+}
+input#exampleFormControlInput1{
+padding: 10px;
+border-bottom: 2px solid #5E5E5E!important;
+border-top: none;
+border-left:none;
+border-radius: 0;
+border-right: none;
+}
+input:focus#exampleFormControlInput1{
+    border-bottom: 2px solid #08867D!important;
+}
+.btn-cmpny{
+    padding: 20px 40px;
+    background-color: #08867D;
+    color: white;
+    border-radius: 10px;
+    font-weight:bold;
+    font-size: 18px;
+    text-decoration: none;
+    /* margin-top: 30px !important; */
+}
+.btn-cmpny:hover{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+input#exampleFormControlInput1{
+    height: 28px;
+}
+.form-control:active{
+    border-bottom: 2px solid #08867D;
+}
+form label{
+    font-size: 18px;
+    color: #5E5E5E;
+    font-weight: 700;
+    cursor: pointer;
+}
+.google-id a {
+    color: #08867D;
+    height: 25px !important;
+}
+
+form i{
+    font-size: 18px;
+    color: #08867D;
+    position: relative;
+    left: -20px;
+}
+
+/* userarea page */
+.ui h2{
+    font-family: 'Inter', sans-serif !important;
+    font-size: 36!important;
+    font-weight: bold;
+    text-align: center;
+    color: #08867D;
+}
+.row{
+    border-radius: 10px;
+    background: #0EB0A4;  
+    padding: 20px;;
+}
+.row2{
+    background-color: #FCB336;
+}
+.row3{
+    background-color: #EC6400;
+}
+.row4{
+    background-color: #9c9c9c;
+}
+.row h3{
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif !important;
+}
+.company-form .row{
+    background-color: transparent;
+}
+.row4 .btn1,
+.row3 .btn1,
+.row2 .btn1,
+.row1 .btn1{
+    background: #fff;
+    color: #5e5e5e;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    width: 180px;
+}
+.addcompany img{
+    width: 24px;
+}
+.row4 h4,
+.row3 h4,
+.row2 h4,
+.row1 h4{
+    color: #0EB0A4;
+    width: 109px;
+    height: 109px;
+    background-color: #fff;
+    border: 3px solid #08867D;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 500%;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.row2 h4{
+    border: 3px solid #EC6400;
+    color: #FCB336;
+}
+.row3 h4{
+    border: 3px solid #FCB336;
+    color: #EC6400;
+}
+.tooltip_1 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    cursor: pointer;
+  }
+  
+  .tooltip_1 .tooltiptext {
+    visibility: hidden;
+    width: 210px;
+    background-color: white;
+    color: #5e5e5e;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 30px;
+    font-family: poppins;
+    font-weight: 300;
+    margin-top: 150%;
+    margin-left: -140%;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+  .tooltip_1:hover .tooltiptext {
+    visibility: visible;
+  }
+  .tooltip_1 span{
+    font-size: 12px;
+  }
+  .menu-dropdown{
+    /* padding:5px; */
+    color: #08867D;
+    width: 150px;
+    border: 1px solid #08867D;
+    border-radius: 5px;
+  }
+  .btn-transparent{
+    color: #08867D  ;
+  }
+  .menu-dropdown i{
+    /* width: 150px; */
+    color: #08867D  ;
+  }
+  .info:hover .tool-tip{
+    display: flex;
+ }
+ .info{
+    width: 20px;
+    margin-left: 10px;
+ }
+ .google-id{
+    position: relative;
+ }
+  .tool-tip{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 20px;
+    color:#000;
+    box-shadow: 0 0 10px #7a7a7a;
+    position: absolute;
+    z-index: 3;
+    width: 329px;
+    display: none;
+    left: 0;
+    margin-top: 20px;
+  }
+  .tool-tip::before {
+     
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    content: '';
+    border-top: 20px solid #7BD2CC;
+    position: absolute;
+    top: -26%;
+    left: 42%;
+    transform: rotate(180deg);
+    /* z-index: 0; */
+}
+ @media (max-width: 420px){
+    .form-box{
+        padding: 20px !important;
+    }
+    .btn-cmpny{
+        padding: 20px 10px;
+    }
+    .tool-tip {
+        left: 17% !important;   
+        width: 200px;
+  }
+  .tool-tip::before{
+    top: -13%;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #7BD2CC;
+  }
+}
+@media(max-width:767px){
+    .navbar-brand img{
+        width:160px !important;
+    }
+    .form-box h2{
+        font-size: 24px;
+    }
+    .form-box label{
+        font-size: 16px;
+    }
+    .btn-cmpny{
+        font-size: 16px;
+    }
+    .tool-tip{
+        left: -15px;
+    }
+    .company-wrapper {
+        text-align: center;
+        /* display: block; */
+    }
+    .examplecompany{
+        justify-content: center;
+    }
+    .btn-1{
+        margin-left: 0 !important;
+    }
+    .addcompany h3{
+        text-align: center;
+    }
+    .row4 .example-company{
+        display: flex ;
+        justify-content: center;
+    }
+    .row4 h4, .row3 h4, .row2 h4, .row1 h4{
+        width:100px;
+        height: 100px;
+        line-height: 100px;
+    }
+}
+@media(max-width:1199px){
+    .btn1{
+        padding: 10px 15px !important;
+    }
+}
+@media (max-width:991px){
+    .btn1{
+        margin: 10px !important;
+    }
+    .examplecompany {
+        display: block;
+    }
+    .cmpny-status{
+        justify-content: center !important;
+    }
+
+}

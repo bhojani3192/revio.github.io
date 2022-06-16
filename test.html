@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: yellow;
+  padding: 20px;
+  display: none;
+}
+  
+button:hover + div {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<button id="test">Hover over me!</button><div id="test2">I will show on hover</div>
+
+<script>
+const targetDiv = document.getElementById("test2");
+const btn = document.getElementById("test");
+btn.onclick = function () {
+  if (targetDiv.style.display !== "none") 
+    targetDiv.style.display = "block";
+  
+};
+
+</script>
+</body>
+</html>

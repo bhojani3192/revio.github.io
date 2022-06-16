@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>   
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<body>
+
+<div>
+  <div class="ui menu">
+    <div class="ui container ">
+      <a class="navbar-brand align-items-center d-flex " href="https://www.revioo.de"><img src="https://www.revioo.de/static/mainpage/assets/logo-revioo.svg" id="logo-nav-revioo"></a>
+      <div class="right item">
+        <img src="images/profile.png">
+        <div class="dropdown menu-dropdown ms-3  d-none d-lg-block">
+          <button class="btn btn-transparent " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Mainpage
+            <i class="fa-solid fa-angle-down bg-red ms-4"></i>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+        <div class="ui simple dropdown item">
+           jamez <i class="dropdown icon"></i>
+          <div class="menu">
+          <form class="ui large form" method="post" action=/logout_user>
+            <input type="hidden" name="csrfmiddlewaretoken" value="37GHcnRJvCq2QANq4JRIcdwLqHV6kdsar7fILtpb0F4qw0NMNuqOrFYYGBFsbgS0">
+           <input class="ui button"
+                type="submit"
+                value="Sign out"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+<div class="ui container py-5">
+    <h2>User-Area</h2> 
+    <div class="row row1 mb-5 company-wrapper">
+      <div class="col-lg-9 col-md-9  col-12">
+        <h3>ExampleCompany</h3>
+        <div class="d-lg-flex example-company justify-content-space-between ">
+          <button class="btn1 ms-0">Edit <img src="images/edit.png" class="ps-1"></button>
+          <button class="btn1">Statistike <img src="images/Statistike.png"></button>
+          <button class="btn1">Upgrade <img src="images/Upgrade.png"></button>
+          <button class="btn1">Qr Code <img src="images/Code.png"></button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-12 d-flex justify-content-end align-items-center cmpny-status">
+        <h4 class="">Free</h4>
+      </div>
+    </div>
+    <div class="row row2 mb-5 company-wrapper">
+      <div class="col-lg-9 col-md-9  col-12">
+        <h3>ExampleCompany 2</h3>
+        <div class="d-lg-flex example-company justify-content-space-between ">
+          <button class="btn1 ms-0">Edit <img src="images/edit.png" class="ps-1"></button>
+          <button class="btn1">Statistike <img src="images/Statistike.png"></button>
+          <button class="btn1">Upgrade <img src="images/Upgrade.png"></button>
+          <button class="btn1">Qr Code <img src="images/Code.png"></button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-12 d-flex justify-content-end align-items-center cmpny-status">
+        <h4 class="">Basic</h4>
+      </div>
+    </div>
+    <div class="row row3 mb-5 company-wrapper">
+      <div class="col-lg-9 col-md-9  col-12">
+        <h3>ExampleCompany 3</h3>
+        <div class="d-lg-flex example-company justify-content-space-between ">
+          <button class="btn1 ms-0">Edit <img src="images/edit.png" class="ps-1"></button>
+          <button class="btn1">Statistike <img src="images/Statistike.png"></button>
+          <button class="btn1">Upgrade <img src="images/Upgrade.png"></button>
+          <button class="btn1">Qr Code <img src="images/Code.png"></button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-12 d-flex justify-content-end align-items-center cmpny-status">
+        <h4 class="">Primium</h4>
+      </div>
+    </div>
+    <!-- <div class="row row2 mb-5">
+      <div class="col-9">
+        <h3>ExampleCompany2</h3>
+        <div class="d-lg-flex example-company   justify-content-space-between align-items-center">
+          <button class="btn1 ms-0">Edit <img src="images/edit.png" class="ps-1"></button>
+          <button class="btn1">Statistike <img src="images/Statistike.png"></button>
+          <button class="btn1">Upgrade <img src="images/Upgrade.png"></button>
+          <button class="btn1">Qr Code <img src="images/Code.png"></button>
+        </div>
+      </div>
+      <div class="col-3 d-flex justify-content-end align-items-center cmpny-status">
+        <h4 class="">Basic</h4>
+      </div>
+    </div>
+    <div class="row row3 mb-5">
+      <div class="col-9">
+        <h3>ExampleCompany3</h3>
+        <div class="d-lg-flex example-company   justify-content-space-between  align-items-center">
+          <button class="btn1 ms-0">Edit <img src="images/edit.png" class="ps-1"></button>
+          <button class="btn1">Statistike <img src="images/Statistike.png"></button>
+          <button class="btn1">Upgrade <img src="images/Upgrade.png"></button>
+          <button class="btn1">Qr Code <img src="images/Code.png"></button>
+        </div>
+      </div>
+      <div class="col-3 d-flex justify-content-end align-items-center cmpny-status">
+        <h4 class="">Primium</h4>
+      </div>
+    </div> -->
+    <div class="row row4 mb-5 addcompany">
+      <div class="col-12 col-lg-9 col-">
+        <h3>Create +</h3>
+        <div class="d-lg-flex example-company  justify-content-space-between ">
+          <button class="btn1 ms-0">Add Company <img src="images/icon.png" class="ps-1"></button>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
